@@ -1,0 +1,27 @@
+.welcome {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #ffe0ec, #ffc2d1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Tahoma', sans-serif;
+  color: #5e005e;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff0055;
+}
